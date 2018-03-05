@@ -23,13 +23,15 @@ class Ball(Turtle):
                 self.shape("circle")
                 self.shapesize(2)
                 num=0
-                num=random.randint(0,2)
+                num=random.randint(0,3)
                 if num == 0:
                         self.color("red") 
                 elif num==1:
                         self.color("green")
                 elif num==2:
                         self.color("blue")
+		elif num==3:
+			self.color("black")
 
 x=-420
 y=250
